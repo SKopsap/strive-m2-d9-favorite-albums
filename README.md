@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project - Artist News
+# Project - Favorite Albums
 
 > Our first Bootstrap5 project used to wet our feet using bootstraps standard components, no major frontend framework implemented, just a simple bootstrap one pager.
 

@@ -10837,11 +10837,21 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+body {
+  background-color: black;
+}
+
 h1 {
-  color: rebeccapurple;
+  color: white;
 }
 
 h2 {
   color: purple;
+}
+
+.jumbotron {
+  background-image: url("https://th.bing.com/th/id/Rb2c9d5aadeab810887e11b09a5b28193?rik=AHYXEOzqYhUVtw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-VKzSj9TRbrY%2fUpSrhmZflYI%2fAAAAAAAAD_g%2fZzSNbjqnOgQ%2fs1600%2fPink%2bFloyd%2b-%2bDark%2bSide%2bOf%2bThe%2bMoon.jpg&ehk=2rHolATQNwNkAZj%2bM6uiN89OCk%2fplFGO%2bUkBq5DfIrU%3d&risl=&pid=ImgRaw");
+  background-size: cover;
+  height: 50vh;
 }
 /*# sourceMappingURL=index.css.map */
