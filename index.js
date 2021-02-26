@@ -1,6 +1,3 @@
-// my-first-snowpack/index.js
-import './css/index.scss'
-
 // component imports
 import { breadCrumbComponent } from './components/breadCrumbComponent'
 import { jumbotronComponent } from './components/jumbotronComponent'
@@ -17,13 +14,13 @@ const state = {
   },
   favoritesList: [
     { artist: 'Bruce Springsteen', album: 'Born in the USA', genre: 'rock' },
-    { artist: 'Queen', album: 'The Miracle', genre: 'Pop' },
+    { artist: 'Queen', album: 'The Miracle', genre: 'pop' },
     { artist: 'Prince', album: 'The Revolution of Purple Rain', genre: 'pop' }
   ]
 }
 
-window.onload = function () {
-  breadCrumbComponent('exercise1')
-  jumbotronComponent('exercise2', state.jumbotronData)
-  badgeListComponent('exercise3', state.favoritesList)
-}
+breadCrumbComponent('exercise1')
+jumbotronComponent('exercise2', state.jumbotronData)
+badgeListComponent('exercise3', 'genre', state.favoritesList)
+
+window.onload = function () {}
